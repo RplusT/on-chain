@@ -1,2 +1,2 @@
 # on-chain
-On-chain explorations
+A compilation of blockchain data explorations
