@@ -320,6 +320,18 @@ app.layout = dbc.Container([
             ], style={'height': '100%'}, color='#e8daef')
         ], xs=12, sm=12, md=12, lg=6, xl=6),
     ], style={'padding': '10px'}),
+    dbc.Row([
+        dbc.Col([
+            dbc.Card([
+                dbc.CardBody([
+                    html.P('Made by rplust.',
+                           className='card-text'),
+                    dbc.CardLink('Twitter', href='https://twitter.com/robplust'),
+                    dbc.CardLink('GitHub', href='https://github.com/RplusT/on-chain/tree/main/uniswap_v2')
+                ]),
+            ]),
+        ]),
+    ]),
 ], style={'backgroundColor': '#FFFFFF'}, fluid=True)
 
 if __name__ == '__main__':
